@@ -17,11 +17,11 @@ function Navigation() {
           Home Page
         </li>
       </Link>
-      <Link href="/Products">
+      <Link href="/products">
         <li
           className={`
             ${styles["nav-item"]} 
-            ${router.pathname === "/Products" && styles.active}
+            ${router.pathname === "/products" && styles.active}
           `}
         >
           Products

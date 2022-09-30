@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+}
+.item {
+  width: 100%;
+  height: 7rem;
+  margin: 2rem 0;
+  padding: 0 1rem;
+  border-radius: 0.5rem;
+  border-left: 0.25rem solid rgb(2, 214, 168);
+  background-color: white;
+  color: black;
+  display: flex;
+  padding: 1rem;
+}
+
+.item:hover img {
+  opacity: 1;
+}
+
+.desc-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+ 
+
+.item a {
+  text-decoration: underline;
+  width: 6rem;
+  color: rgb(0, 122, 96);
+}
+
+.picture {
+  height: 100%;
+  width: 100px;
+  overflow: hidden;
+  border-radius: 0.25rem;
+  display: flex;
+  margin-right: 1rem;
+}
+
+.picture img {
+  height: 100%;
+  opacity: 0.5;
+  transition: all ease-in 0.2s;
+}

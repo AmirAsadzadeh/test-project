@@ -1,0 +1,15 @@
+.container {
+  width: 100%;
+  max-width: 80rem;
+  padding: 2rem;
+  margin: auto;
+}
+
+.title {
+  color: rgb(2, 214, 168);
+  margin-bottom: 1rem;
+}
+
+.list {
+  list-style-type: none;
+}

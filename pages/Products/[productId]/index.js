@@ -1,11 +1,8 @@
+import Product from "../../../components/Product.jsx/Product";
 import { useRouter } from "next/router";
 
-function Product() {
+export default function ProductPage() {
   const router = useRouter();
 
-  console.log(router.query);
-
-  return <h1>product id {router.query.productId}</h1>;
+  return <Product id={router.query.productId} />;
 }
-
-export default Product;
